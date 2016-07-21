@@ -16,6 +16,7 @@ apply plugin: 'eclipse-wtp'
 apply plugin: 'spring-boot'
 apply plugin: 'war'
 
+mainClassName ='com.hybrid.Chap03Application'
 
 war {
 	baseName = 'chap03'
