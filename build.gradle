@@ -38,11 +38,20 @@ configurations {
 }
 
 dependencies {
+	//gluon
 	compile 'com.gluonhq:particle:1.1.0'
+	//web,spring
 	compile('org.springframework.boot:spring-boot-starter-web')
 	providedRuntime('org.springframework.boot:spring-boot-starter-tomcat')
 	testCompile('org.springframework.boot:spring-boot-starter-test')
+	//
 	providedRuntime group: 'org.apache.tomcat.embed', name: 'tomcat-embed-jasper', version: '8.5.3'
+
+	//DB연동	
+	compile group: 'org.mybatis.spring.boot', name: 'mybatis-spring-boot-starter', version: '1.1.1'
+	compile files('src/main/webapp/WEB-INF/lib/ojdbc7.jar');
+	
+
 }
 
 
