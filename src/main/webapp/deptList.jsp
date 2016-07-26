@@ -21,5 +21,4 @@
 		// system 없으면 웹브라우저로 보여짐 +"<br>"
 	}
 %>
-</body>
-</html>
+</body></html>
