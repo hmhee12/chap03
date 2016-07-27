@@ -4,9 +4,16 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>redirect.jsp</title>
 </head>
 <body>
-홍길동입니다
+<%
+
+	response.sendRedirect("redirect.jsp");
+%>
+
+
+<h1>Redirect 실습</h1>
+
 </body>
 </html>

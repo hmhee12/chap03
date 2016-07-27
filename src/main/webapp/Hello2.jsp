@@ -11,7 +11,7 @@
 현재시간<%=new Date() %><br>
 name=<%=request.getParameter("name") %><br>
 addr=<%=request.getParameter("addr") %>
-HTTP METHOD = <%=request.getMethod() %>
+
 </body>
 </html>
 

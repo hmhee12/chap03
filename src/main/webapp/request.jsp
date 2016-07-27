@@ -4,9 +4,12 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>ID,PW</title>
 </head>
 <body>
-홍길동입니다
+ID : <%=request.getParameter("ID") %>
+PW : <%=request.getParameter("PW") %>
+
+
 </body>
 </html>
